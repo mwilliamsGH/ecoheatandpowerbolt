@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Leaf, Menu, X } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
+import logo from '../assets/eco-heat-and-power-logo2.svg';
+import scrolledLogo from '../assets/eco-heat-and-power-logo-scrolled.svg'; 
 
 const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -43,11 +45,11 @@ const Navbar: React.FC = () => {
       <div className="container mx-auto px-4 md:px-6">
         <div className="flex justify-between items-center">
           <Link to="/" className="flex items-center space-x-2">
-            <Leaf className="h-8 w-8 text-green-600" />
-            <div className="flex flex-col">
-              <span className="text-xl font-bold text-green-800">Eco</span>
-              <span className="text-sm font-medium -mt-1 text-green-600">Heat and Power</span>
-            </div>
+            <img 
+              src={isScrolled ? scrolledLogo : logo} 
+              alt="Eco Heat and Power Logo" 
+              className="h-14 w-auto" 
+            />
           </Link>
           
           {/* Desktop Navigation */}

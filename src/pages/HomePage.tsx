@@ -21,7 +21,7 @@ const HomePage: React.FC = () => {
       <HeroSection
         title="Sustainable Energy Solutions for a Greener Tomorrow"
         subtitle="Eco Heat and Power provides environmentally friendly heating solutions with firewood, biomass boilers, and solar panels to reduce your carbon footprint and energy bills."
-        backgroundImage="https://images.pexels.com/photos/1287145/pexels-photo-1287145.jpeg?auto=compress&cs=tinysrgb&w=1600"
+        backgroundImage="/EcoHeatAndPowerHero.jpg"
         buttonText="Explore Solutions"
         buttonLink="/about"
       />

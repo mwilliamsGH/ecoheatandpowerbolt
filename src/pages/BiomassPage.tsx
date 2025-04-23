@@ -14,7 +14,7 @@ const BiomassPage: React.FC = () => {
       <HeroSection 
         title="Modern Biomass Heating Solutions" 
         subtitle="Embrace clean, renewable heat with our state-of-the-art biomass boiler systems. Efficient, eco-friendly, and economical."
-        backgroundImage="https://images.pexels.com/photos/8850597/pexels-photo-8850597.jpeg?auto=compress&cs=tinysrgb&w=1600"
+        backgroundImage="/eta_boiler1.png"
         buttonText="Explore Biomass"
         buttonLink="#biomass-systems"
       />
@@ -65,7 +65,7 @@ const BiomassPage: React.FC = () => {
             
             <div className="relative">
               <img 
-                src="https://images.pexels.com/photos/8850710/pexels-photo-8850710.jpeg?auto=compress&cs=tinysrgb&w=1600" 
+                src="/eta_boiler1.png" 
                 alt="Modern biomass boiler" 
                 className="rounded-lg shadow-xl"
               />
