@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Link } from 'react-router-dom';
 
@@ -33,13 +34,13 @@ const HeroSection: React.FC<HeroSectionProps> = ({
         <p className="text-lg md:text-xl mb-8 max-w-3xl mx-auto" data-aos="fade-up" data-aos-delay="200">
           {subtitle}
         </p>
-        <Link 
-          to={buttonLink} 
+        <a 
+          href={buttonLink} 
           className="bg-green-600 hover:bg-green-500 text-white px-8 py-3 rounded-md inline-block transition-colors text-lg font-medium"
           data-aos="fade-up" data-aos-delay="300"
         >
           {buttonText}
-        </Link>
+        </a>
       </div>
       <div className="absolute bottom-10 left-0 right-0 flex justify-center">
         <div className="animate-bounce bg-white bg-opacity-30 p-2 w-10 h-10 ring-1 ring-white ring-opacity-20 rounded-full flex items-center justify-center">

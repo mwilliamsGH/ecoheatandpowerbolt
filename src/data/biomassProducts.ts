@@ -15,11 +15,11 @@ export const biomassProducts = [
     ]
   },
   {
-    id: 'eta-pe-100-140',
-    name: 'ETA PE-K 100-140 kW Pellet Boiler',
+    id: 'eta-pe-100-240',
+    name: 'ETA PE-K 100-240 kW Pellet Boiler',
     description: 'Commercial-grade pellet boiler with automatic fuel feed system and advanced control technology.',
-    image: '/ETA PE-K 100-140 KW PELLET BOILER.jpg',
-    powerRange: '100-140 kW',
+    image: '/ETA PE-K 100-240 KW PELLET BOILER.jpg',
+    powerRange: '100-240 kW',
     efficiency: '95%',
     fuelType: 'Wood Pellets',
     features: [
@@ -63,7 +63,7 @@ export const biomassProducts = [
     id: 'eta-pelletunit-7-15',
     name: 'ETA PelletsUnit 7, 11, and 15 kW',
     description: 'Compact all-in-one pellet heating solution perfect for modern homes.',
-    image: '/ETA PelletsUnit 7, 11, and 15 kW.jpg',
+    image: '/ETA PelletsUnit 7, 11 and 15 kW.jpg',
     powerRange: '7-15 kW',
     efficiency: '96%',
     fuelType: 'Wood Pellets',
